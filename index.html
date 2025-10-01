@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sai Pavan Krishna Nagam - Quantum Technology researcher at IISc Bangalore. Showcasing research projects, academic achievements, and quantum computing expertise.">
+    <meta name="theme-color" content="#0f172a">
+        <title>NaSaPaKri</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="floating-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="grid-overlay"></div>
+    </div>
+    
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loader">
+            <div class="loader-text">Loading</div>
+            <div class="loader-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">NaSaPaKri</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Me</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#leadership" class="nav-link">Leadership</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Connect</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content animate__animated animate__fadeInLeft">
+            <div class="hero-badge">
+                <span class="status-dot"></span>
+                Student & Creator
+            </div>
+            <h1 class="hero-title">
+                Hey there, I'm <span class="highlight typewriter">Sai Pavan Krishna</span>
+            </h1>
+            <p class="hero-subtitle typing-subtitle">
+                A curious student exploring the world through code, creativity, and endless learning
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="6">6</span>
+                    <span class="stat-label">Research Projects</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="4">4</span>
+                    <span class="stat-label">Internships</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="2">2</span>
+                    <span class="stat-label">Publications</span>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary glitch-btn">
+                    <span>Get to Know Me</span>
+                    <i class="fas fa-heart"></i>
+                </a>
+                <a href="#projects" class="btn btn-secondary neon-btn">
+                    <span>My Creations</span>
+                    <i class="fas fa-rocket"></i>
+                </a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/ucantfindme" class="social-link" data-tooltip="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sai-pavan-krishna-nagam-145248197/" class="social-link" data-tooltip="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/NaSaPaKri" class="social-link" data-tooltip="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link" data-tooltip="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-image animate__animated animate__fadeInRight">
+            <div class="profile-picture">
+                <div class="profile-glow"></div>
+                <div class="profile-border"></div>
+                <!-- Add your profile picture here -->
+                <i class="fas fa-graduation-cap"></i>
+                <div class="floating-icons">
+                    <i class="fas fa-book floating-icon"></i>
+                    <i class="fas fa-gamepad floating-icon"></i>
+                    <i class="fas fa-camera floating-icon"></i>
+                    <i class="fas fa-music floating-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Who Am I?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hey! I'm a passionate student who believes that life is all about learning, creating, and connecting with amazing people. 
+                        I'm currently pursuing my studies while exploring the fascinating world of technology and design.
+                    </p>
+                    <p>
+                        When I'm not buried in textbooks or coding late into the night, you'll find me exploring new hobbies, 
+                        capturing moments through photography, or getting lost in a good book. I believe that every experience 
+                        teaches us something new, and I'm always eager to learn and grow.
+                    </p>
+                    <div class="personality-traits">
+                        <h3>What Makes Me, Me</h3>
+                        <div class="trait-grid">
+                            <div class="trait-item">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>Curious Mind</span>
+                            </div>
+                            <div class="trait-item">
+                                <i class="fas fa-palette"></i>
+                                <span>Creative Soul</span>
+                            </div>
+                            <div class="trait-item">
+                                <i class="fas fa-users"></i>
+                                <span>Team Player</span>
+                            </div>
+                            <div class="trait-item">
+                                <i class="fas fa-mountain"></i>
+                                <span>Adventure Seeker</span>
+                            </div>
+                            <div class="trait-item">
+                                <i class="fas fa-puzzle-piece"></i>
+                                <span>Problem Solver</span>
+                            </div>
+                            <div class="trait-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Lifelong Learner</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h3>Technical Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Quantum Algorithms</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">FPGA</span>
+                            <span class="skill-tag">Qiskit</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">LaTeX</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+    <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-grid">
+            <div class="education-card" data-tilt>
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-content">
+                    <div class="education-date">2024 - Present</div>
+                    <h3>MTech in Quantum Technology</h3>
+                    <h4>Indian Institute of Science (IISc), Bangalore</h4>
+                    <p>CGPA: 8.3/10</p>
+                    <div class="education-description">
+                        <p>Conducting cutting-edge research in quantum error correction and FPGA implementations. Working on decoding algorithms for surface codes with SINESys Lab.</p>
+                    </div>
+                    <div class="education-tags">
+                        <span class="tag">Quantum Algorithms</span>
+                        <span class="tag">Error Correction</span>
+                        <span class="tag">Scientific Computing</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-card" data-tilt>
+                <div class="education-icon">
+                    <i class="fas fa-medal"></i>
+                </div>
+                <div class="education-content">
+                    <div class="education-date">2019 - 2023</div>
+                    <h3>BTech in Computer Science & Engineering</h3>
+                    <h4>Amrita Vishwa Vidyapeetham, Kerala</h4>
+                    <p>CGPA: 9.83/10 • College Gold Medalist</p>
+                    <div class="education-description">
+                        <p>Graduated with highest CGPA in the batch. Specialized in algorithms, machine learning, and quantum computing fundamentals. Active in competitive programming and research.</p>
+                    </div>
+                    <div class="education-tags">
+                        <span class="tag">Gold Medalist</span>
+                        <span class="tag">Computer Science</span>
+                        <span class="tag">Academic Excellence</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-card" data-tilt>
+                <div class="education-icon">
+                    <i class="fas fa-school"></i>
+                </div>
+                <div class="education-content">
+                    <div class="education-date">2015 - 2017</div>
+                    <h3>Intermediate</h3>
+                    <h4>FIITJEE Jr College, Vizag Campus</h4>
+                    <p>Mathematics, Physics, Chemistry</p>
+                    <div class="education-description">
+                        <p>Excelled in science subjects with strong foundation in mathematics and physics.</p>
+                    </div>
+                    <div class="education-tags">
+                        <span class="tag">Science Stream</span>
+                        <span class="tag">889/1000</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-tilt>
+                    <div class="timeline-date">Aug 2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Graduate Researcher</h3>
+                        <h4>SINESys Lab, IISc Bangalore</h4>
+                        <p>Building quantum-inspired algorithms on FPGAs • Research focus on quantum error correction and surface codes implementation</p>
+                        <div class="timeline-tags">
+                            <span class="tag">FPGA</span>
+                            <span class="tag">Quantum Computing</span>
+                            <span class="tag">Research</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-tilt>
+                    <div class="timeline-date">Aug 2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Teaching Assistant</h3>
+                        <h4>IISc Bangalore</h4>
+                        <p>Teaching Assistant for QT 207: Introduction to Quantum Computation (3:0) • Mentoring students and conducting tutorials</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Teaching</span>
+                            <span class="tag">Quantum Education</span>
+                            <span class="tag">Mentoring</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-tilt>
+                    <div class="timeline-date">May 2025 - Aug 2025</div>
+                    <div class="timeline-content">
+                        <h3>Summer Intern</h3>
+                        <h4>IBM, Bangalore</h4>
+                        <p>Implementation Benchmarking Suite for Qiskit Functions • Built Adversarial Circuits using evolutionary search techniques</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Qiskit</span>
+                            <span class="tag">Benchmarking</span>
+                            <span class="tag">Evolutionary Algorithms</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-tilt>
+                    <div class="timeline-date">Jul 2023 - Feb 2024</div>
+                    <div class="timeline-content">
+                        <h3>Research Intern</h3>
+                        <h4>IIIT Hyderabad</h4>
+                        <p>Scheduling Theory & Multi-objective optimization • Multi-arm Bandit optimization for recommendation systems</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Optimization</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Recommendation Systems</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-tilt>
+                    <div class="timeline-date">Jan 2023 - Jun 2023</div>
+                    <div class="timeline-content">
+                        <h3>Research Intern</h3>
+                        <h4>Penn State University, USA</h4>
+                        <p>Chemi-Sensing ML models for 2D-Semiconductors • Neuromorphic Computing algorithms for 2D-devices</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">2D Materials</span>
+                            <span class="tag">Neuromorphic Computing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-tilt>
+                    <div class="timeline-date">May 2022 - Aug 2022</div>
+                    <div class="timeline-content">
+                        <h3>Summer Intern</h3>
+                        <h4>IIT Kanpur</h4>
+                        <p>Analysis on various Quicksort Algorithm implementations • Design and Implementation of Stable-Matching Algorithm for TA-Allocation</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Algorithms</span>
+                            <span class="tag">Data Structures</span>
+                            <span class="tag">Optimization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership & Responsibilities Section -->
+    <section id="leadership" class="leadership-section">
+        <div class="container">
+            <h2 class="section-title">Leadership & Responsibilities</h2>
+            <div class="leadership-grid">
+                <div class="leadership-card" data-tilt>
+                    <div class="leadership-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="leadership-content">
+                        <div class="leadership-date">Aug 2025 - Nov 2025</div>
+                        <h3>Lead Organiser</h3>
+                        <h4>IISc x Qiskit Fall Fest 2025</h4>
+                        <p>Led 5-member team for IBM Quantum sponsored event • Managed speakers, logistics, and hackathon judging</p>
+                        <div class="leadership-tags">
+                            <span class="tag">Event Management</span>
+                            <span class="tag">Team Leadership</span>
+                            <span class="tag">IBM Partnership</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="leadership-card" data-tilt>
+                    <div class="leadership-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="leadership-content">
+                        <div class="leadership-date">Jan 2025 - Present</div>
+                        <h3>SWAN MTech Coordinator</h3>
+                        <h4>Student Wellness and Affairs Network, IISc</h4>
+                        <p>Represent MTech students • Plan wellness initiatives and cultural events • Facilitate student-admin communication</p>
+                        <div class="leadership-tags">
+                            <span class="tag">Student Representation</span>
+                            <span class="tag">Wellness</span>
+                            <span class="tag">Community Building</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="leadership-card" data-tilt>
+                    <div class="leadership-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <div class="leadership-content">
+                        <div class="leadership-date">Sep 2024 - Present</div>
+                        <h3>Department Representative & Seminar Coordinator</h3>
+                        <h4>Dept. of Instrumentation and Applied Physics, IISc</h4>
+                        <p>Represent students in departmental matters • Organize seminars and coordinate academic events</p>
+                        <div class="leadership-tags">
+                            <span class="tag">Academic Coordination</span>
+                            <span class="tag">Event Planning</span>
+                            <span class="tag">Student Advocacy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Research Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-tilt>
+                    <div class="project-front">
+                        <div class="project-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h3>Surface Codes on FPGAs</h3>
+                        <p class="project-type">MTech Project • 2025 - Present</p>
+                        <div class="project-status">Hardware Research</div>
+                    </div>
+                    <div class="project-back">
+                        <h3>Decoding Algorithms for Surface Codes on FPGAs</h3>
+                        <p>Identification, designing, implementing and analysis of decoding algorithms for surface codes on FPGAs similar to digital annealers. Working with SINESys Lab at IISc.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">FPGA</span>
+                            <span class="tech-tag">Quantum Error Correction</span>
+                            <span class="tech-tag">EDA Analysis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span>Code</span>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-file-alt"></i>
+                                <span>Paper</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-tilt>
+                    <div class="project-front">
+                        <div class="project-icon">
+                            <i class="fas fa-atom"></i>
+                        </div>
+                        <h3>TRACE-Q</h3>
+                        <p class="project-type">Research Project • 2024 - Present</p>
+                        <div class="project-status">Quantum Research</div>
+                    </div>
+                    <div class="project-back">
+                        <h3>Transmon Reliability and Automated Characterisation</h3>
+                        <p>Building an automated tool for transmon qubit characterisation and parameter estimations including internal quality factor, anharmonicity, chi-shift with QTL, IISc.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Qubit Characterisation</span>
+                            <span class="tech-tag">PyVISA</span>
+                            <span class="tech-tag">PyQT6</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span>Code</span>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Research</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-tilt>
+                    <div class="project-front">
+                        <div class="project-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>QuMail</h3>
+                        <p class="project-type">Smart India Hackathon • 2025</p>
+                        <div class="project-status">Quantum Security</div>
+                    </div>
+                    <div class="project-back">
+                        <h3>Quantum Secure Email System</h3>
+                        <p>Windows-based desktop application integrating Quantum Key Distribution with email services. Features GUI for secure communication using QKD protocols and REST APIs.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">QKD Protocols</span>
+                            <span class="tech-tag">Tkinter</span>
+                            <span class="tech-tag">REST API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span>Code</span>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-tilt>
+                    <div class="project-front">
+                        <div class="project-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Sensor Data Calibration</h3>
+                        <p class="project-type">PSU Internship • 2023</p>
+                        <div class="project-status">Machine Learning</div>
+                    </div>
+                    <div class="project-back">
+                        <h3>Sequential Sensor Data Calibration</h3>
+                        <p>Developed calibration methods to minimize sensor-to-sensor variance while preserving patterns. Used diverse ML/DL algorithms and curve fitting for reliable outcomes.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Keras</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span>Code</span>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Results</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-tilt>
+                    <div class="project-front">
+                        <div class="project-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Link Prediction</h3>
+                        <p class="project-type">Independent Studies • 2023</p>
+                        <div class="project-status">Network Analysis</div>
+                    </div>
+                    <div class="project-back">
+                        <h3>Link Prediction using MAP and Motifs</h3>
+                        <p>Predicted links between nodes using Maximum A-Priori estimation considering local structures (motifs) within communities. Published research work.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Network Analysis</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span>Code</span>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-file-alt"></i>
+                                <span>Publication</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-tilt>
+                    <div class="project-front">
+                        <div class="project-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3>Guess IT!</h3>
+                        <p class="project-type">Final Year Project • 2022-23</p>
+                        <div class="project-status">Web Application</div>
+                    </div>
+                    <div class="project-back">
+                        <h3>Online Multiplayer Trivia Game</h3>
+                        <p>Cloud-hosted web app for movie guessing game. Built datasets using web scraping, NLP for keyword extraction and similarity mapping.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">ReactJS</span>
+                            <span class="tech-tag">NLP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span>Code</span>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-play"></i>
+                                <span>Play Game</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Recognition</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card" data-tilt>
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>AIR 72 GATE-CS 2024</h3>
+                    <p>All India Rank 72 in Graduate Aptitude Test in Engineering - Computer Science</p>
+                </div>
+                
+                <div class="achievement-card" data-tilt>
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>College Gold Medalist</h3>
+                    <p>Highest CGPA (9.83/10) in BTech Computer Science at Amrita Vishwa Vidyapeetham</p>
+                </div>
+                
+                <div class="achievement-card" data-tilt>
+                    <div class="achievement-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Top 1000 Global - LeetCode</h3>
+                    <p>Achieved top 1000 global ranking in LeetCode contest ratings demonstrating strong algorithmic skills</p>
+                </div>
+                
+                <div class="achievement-card" data-tilt>
+                    <div class="achievement-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>ICPC Regionalist</h3>
+                    <p>Qualified for ICPC Regional rounds showcasing competitive programming excellence</p>
+                </div>
+                
+                <div class="achievement-card" data-tilt>
+                    <div class="achievement-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>SURGE-2022 Fellow</h3>
+                    <p>Selected as SURGE Fellow for research excellence and academic achievements</p>
+                </div>
+                
+                <div class="achievement-card" data-tilt>
+                    <div class="achievement-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>3 Research Publications</h3>
+                    <p>Published research in Big Data and Cognitive Computing, PiCET 2024, and ISTA 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="hobbies">
+        <div class="container">
+            <h2 class="section-title">Beyond Research</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card" data-tilt>
+                    <div class="hobby-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Research & Learning</h3>
+                    <p>Passionate about staying updated with the latest developments in quantum computing, quantum information theory, and emerging technologies in the field.</p>
+                    <div class="reading-list">
+                        <span>📚 Current Focus: Quantum Error Correction</span>
+                    </div>
+                </div>
+                
+                <div class="hobby-card" data-tilt>
+                    <div class="hobby-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming</h3>
+                    <p>Beyond research, I enjoy exploring different programming paradigms, contributing to open-source projects, and building tools that solve real-world problems.</p>
+                    <div class="current-game">
+                        <span>💻 Current Project: Quantum Algorithm Optimization</span>
+                    </div>
+                </div>
+                
+                
+
+                <div class="hobby-card" data-tilt>
+                    <div class="hobby-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Photography</h3>
+                    <p>Capturing moments through the lens is my way of preserving memories and exploring creativity. From landscapes to portraits, I enjoy experimenting with different styles.</p>
+                    <div class="photo-gear current-game">
+                        <span>📸 Favorite Gear: Mobile Camera</span>
+                    </div>
+                </div>
+
+                <div class="hobby-card" data-tilt>
+                    <div class="hobby-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Motorsport & Cricket</h3>
+                    <p>Passionate about Formula 1 and cricket. I love following races, analyzing strategies, and cheering for my favorite teams during matches.</p>
+                    <div class="sports-favorites current-game">
+                        <span>🏎️ Favorite Driver: Carlos Sainz (55) | 🏏 Favorite Player: M S Dhoni (7)</span>
+                    </div>
+                </div>
+
+                <div class="hobby-card" data-tilt>
+                    <div class="hobby-icon">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <h3>Anime Enthusiast</h3>
+                    <p>Anime is my escape into fantastical worlds. I enjoy watching genres ranging from action-packed adventures to heartwarming slice-of-life stories.</p>
+                    <div class="anime-favorites current-game">
+                        <span>🎥 Favorite Anime: One Piece</span>
+                    </div>
+                </div>
+
+                <div class="hobby-card" data-tilt>
+                    <div class="hobby-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Food & Restaurants</h3>
+                    <p>Exploring new cuisines and discovering hidden gems in the culinary world is a delightful adventure. I enjoy trying out local dishes and unique flavors.</p>
+                    <div class="food-favorites current-game">
+                        <span>🍴 Favorite Cuisine: South-Indian</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect!</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Want to collaborate?</h3>
+                    <p>I'm always interested in discussing quantum computing research, potential collaborations, or innovative projects in the quantum technology space. Feel free to reach out!</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>8765s.p.krishna.n@gmail.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn: Sai Pavan Krishna Nagam</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bangalore, India</span>
+                        </div>
+                    </div>
+                    <div class="fun-fact">
+                        <h4 class="fact-title">🔍 Research Interest</h4>
+                        <p class="fact-description">Currently working on quantum error correction and surface codes implementation on FPGA hardware. Passionate about exploring quantum algorithms and their real-world applications in cutting-edge technology.</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="What's on your mind?" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Tell me something interesting!" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message 🚀</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sai Pavan Krishna Nagam. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/ucantfindme" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sai-pavan-krishna-nagam-145248197/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/NaSaPaKri" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
